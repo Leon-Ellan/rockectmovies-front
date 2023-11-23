@@ -1,14 +1,13 @@
 import { Button } from "../../components/Button";
+import { Header } from "../../components/Header";
 import { Container } from "./styles";
 
 export function Details() {
 
   return (
     <Container>
-      <Button title="Entrar" loading/>
-      <Button title="Cadastrar"/>
-      <Button title="Clique-me" loading={false} color="blue" onClick={() => console.log("Clicado")} />
-
+      <Header/>
+      <Button title="Voltar"/>
     </Container>   
 
   )
