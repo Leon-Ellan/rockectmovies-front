@@ -8,6 +8,8 @@ import {
  } from "./styles";
 
  import { Header } from '../../components/Header'
+ import { ButtonText } from "../../components/ButtonText"
+
 
 
  export function Home() {  
@@ -18,7 +20,9 @@ import {
       </Brand>
       <Header/>
       <Menu>
-
+        <li><ButtonText title="Todos" isActive /></li>
+        <li><ButtonText title="Ação"/></li>
+        <li><ButtonText title="Aventura"/></li>
       </Menu> 
 
       <Search>
