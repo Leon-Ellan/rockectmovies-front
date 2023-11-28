@@ -1,6 +1,6 @@
 import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
-import { Container, Links } from "./styles";
+import { Container, Links, Content } from "./styles";
 import { Section } from "../../components/Section";
 import { Tag } from "../../components/Tags";
 import { ButtonText } from "../../components/ButtonText";
@@ -10,9 +10,12 @@ export function Details() {
   return (
     <Container>
      <Header/>
-       <ButtonText 
-         title="Excluir nota"
-       />
+      <main>
+        <Content>
+         <ButtonText title="Excluir nota"/>
+          <h1>Senhor dos anéis</h1>
+          <p>Na Terra Média, no Condado onde vivem os hobbits, acontece o aniversário de Bilbo, que dá a seu sobrinho, Frodo Bolseiro, um misterioso anel. Logo, com a ajuda do mago Gandalf, o jovem descobre que a jóia é mágica e seus poderes podem ter conseqüências terríveis para quem usar e para o resto do mundo.</p>
+
        <Section title="Links úteis"> 
         <Links>
          
@@ -29,7 +32,9 @@ export function Details() {
 
       </Section>
       <Button title="Voltar"/>
-    </Container>   
+    </Content>
+   </main>
+  </Container>   
 
   )
 };
