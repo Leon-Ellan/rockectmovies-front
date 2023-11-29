@@ -1,3 +1,6 @@
+import { FiPlus } from 'react-icons/fi';
+
+
 import {
   Container,
   Brand,
@@ -33,8 +36,9 @@ import {
 
       </Content>
 
-      <NewNote>
-
+      <NewNote to="/new">
+        <FiPlus/>
+        Criar nota
       </NewNote>
 
     </Container>
