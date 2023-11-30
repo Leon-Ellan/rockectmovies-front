@@ -1,6 +1,5 @@
 import { FiPlus } from 'react-icons/fi';
 
-
 import {
   Container,
   Brand,
@@ -13,7 +12,8 @@ import {
  import { Header } from '../../components/Header'
  import { ButtonText } from "../../components/ButtonText"
  import { Input } from '../../components/Input'
-
+ import { Section } from '../../components/Section'
+ import { Note } from '../../components/Note'
 
  export function Home() {  
   return (  
@@ -35,7 +35,16 @@ import {
       </Search>
 
       <Content>
-
+        <Section title="Minhas notas">
+          <Note 
+          data={{
+            title: "Senhor dos anéis",
+            tags: [
+              {id: "1", name: "ação" },
+              {id: "2", name: "aventura"}
+            ]
+            }}/>
+        </Section>
       </Content>
 
       <NewNote to="/new">
