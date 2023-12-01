@@ -14,7 +14,20 @@ export function Profile(){
         </button>
       </header>
 
-      <Form>
+    <Form>
+      <Avatar>
+        <img 
+         src="https://github.com/Leon-Ellan.png"
+         alt="Foto do usuário" />
+
+        <label htmlFor="avatar">
+         <FiCamera/>
+         <input 
+         id='avatar'
+         type="file" 
+        />
+        </label>
+        </Avatar>
         <Input
         placeholder="Nome"
         type="text"
