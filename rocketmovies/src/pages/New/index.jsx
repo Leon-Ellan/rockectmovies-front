@@ -2,6 +2,9 @@ import { Container, Form } from "./styles"
 import { Header } from "../../components/Header"
 import { Input } from "../../components/Input"
 import { Textarea } from '../../components/Textarea'
+import { NoteItem } from '../../components/NoteItem'
+import { Section } from '../../components/Section'
+import { Button } from '../../components/Button'
 
 import { ButtonText } from '../../components/ButtonText'
 
@@ -21,9 +24,19 @@ export function New() {
        placeholder="Título"
       />
       <Textarea 
-       placeholder="Observações" 
-       onChange= {e => setDescription(e.target.value)}          
+       placeholder="Observações"          
       />
+
+    <Section title="Marcadores">
+      <div className="tags">
+        <NoteItem value="ação"/>
+        <NoteItem isNew placeholder="Novo Marcador"/>
+
+      </div>
+    </Section>
+    <Button 
+      title="Salvar" 
+    /> 
       </Form>
 
       </main>
