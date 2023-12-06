@@ -17,6 +17,7 @@ export const Container = styled.div`
     button {
       background: none;
       border: none;
+
     }
   }
 `
