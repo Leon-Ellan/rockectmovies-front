@@ -45,7 +45,7 @@ export const Avatar = styled.form`
   > label {
     width: 48px;
     height: 48px;
-    background-color: ${({ theme }) => theme.COLORS.ORANGE};
+    background-color: ${({ theme }) => theme.COLORS.PINK};
     border-radius: 50%;
     display: flex;
     align-items: center;
