@@ -11,8 +11,8 @@ export function SignUp() {
     <Container>
     <Background/>
     <Form>
-      <h1>RocketNotes</h1>
-      <p>Aplicação para salvar e genrenciar seus links úteis.</p>
+      <h1>RocketMovies</h1>
+      <p>Aplicação para acompanhar tudo que assistir.</p>
       <h2>Crie sua Conta</h2>
 
       <Input

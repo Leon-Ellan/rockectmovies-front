@@ -19,7 +19,7 @@ import {
   return (  
     <Container>
       <Brand>
-      <h1>Rocketnotes</h1>
+      <h1>RocketMovies</h1>
       </Brand>
       <Header/>
       <Menu>
