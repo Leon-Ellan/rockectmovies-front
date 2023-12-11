@@ -16,6 +16,14 @@ export const Container = styled.button`
     font-size: 24px;
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
+  > p {
+    flex: 1;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    margin-top: 14px
+  }
   > footer {
     width: 100%;
     display: flex;
