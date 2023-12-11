@@ -16,10 +16,17 @@ display: flex;
 justify-content: space-between;
 
 padding: 0 80px;
+
+.logo {
+  margin-top: 22px;
+  color: ${({theme}) => theme.COLORS.PINK};
+}
 `
 export const Profile = styled(Link)`
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
+  gap: 12px;
 
   > img {
     width: 56px;

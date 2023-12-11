@@ -15,25 +15,22 @@ export const Container = styled.div`
     .inputArea{
         grid-area: header;
         display: flex;
-        width: 50%;
+        width: 40%;
         display: flex;
         justify-self: center;
         align-items: center;
 
-    }
-
-   
+    }   
 `;
-
-
 
 export const Brand = styled.div`
     grid-area: brand;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 30px;
+    padding: 0px 250px;
     
     >a {
         width: 206px;
