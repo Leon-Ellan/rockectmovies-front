@@ -22,7 +22,7 @@ export function Home(){
             <Brand>
             <h1>Meus Filmes</h1>
             
-         <Link to='/createMovie'><Button icon ={FiPlus} title="Adicionar filme"> </Button> </Link>
+         <Link to='/createMovies'><Button icon ={FiPlus} title="Adicionar filme"> </Button> </Link>
             </Brand>
         <Content>
         <Section title="">
