@@ -28,10 +28,9 @@ export const Container = styled.div`
 `
 
 export const Form = styled.form`
-  width: 1500px;
+  max-width: 900px;
   height: 90px;
   margin: 38px auto;
-
   >header{
     display: flex;
     align-items: start;
