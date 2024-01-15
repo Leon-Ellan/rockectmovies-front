@@ -14,19 +14,9 @@ export const Container = styled.div`
     padding: 64px 0;
 }`;
 
-export const Links = styled.ul`
-list-style: none;
-
-> li {
-  margin-top: 12px;
-  a {
-    color: ${({ theme}) => theme.COLORS.WHITE};
-  }
-}
-`;
 
 export const Content = styled.div`
-max-width: 550px;
+max-width: 900px;
 margin: 0 auto;
 
 display: flex;
@@ -40,7 +30,9 @@ align-self: end;
   font-size: 36px;
   font-weight: 500;
   padding-top: 64px;
+  color: ${({theme}) => theme.COLORS.PINK};
 }
+
 >p {
   font-size: 16px;
   margin-top: 16px;

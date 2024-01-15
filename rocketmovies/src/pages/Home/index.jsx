@@ -22,10 +22,11 @@ export function Home(){
             <Brand>
             <h1>Meus Filmes</h1>
             
-         <Link to='/createMovies'><Button icon ={FiPlus} title="Adicionar filme"> </Button> </Link>
+              <Link to='/createMovies'><Button icon ={FiPlus} title="Adicionar filme"> </Button> </Link>
             </Brand>
-        <Content>
-        <Section title="">
+    <Content>
+      <Link to="/details/1">
+        <Section title="" >
           <Note 
           data={{
             title: "Senhor dos anéis",
@@ -36,7 +37,8 @@ export function Home(){
             ]
             }}/>
           </Section>
-        </Content>
+      </Link>
+     </Content>
             
             
         </Container>
